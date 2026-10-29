@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light-v2.svg">
-  <img src="assets/banner-dark-v2.svg" width="100%" alt="Mohamed Fathy: .NET Tech Lead, multi-tenant SaaS architect, building Mirsad, Dawsha and Nadfny">
+  <img src="assets/banner-dark-v2.svg" width="100%" alt="Mohamed Fathy: .NET Tech Lead and software architect for multi-tenant SaaS and microservices">
 </picture>
 
 <p align="center">
