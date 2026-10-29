@@ -81,8 +81,6 @@ work I build tools I want to use myself, and ship them.
       <ul>
         <li><a href="https://github.com/mfathy234/mirsad-connector"><b>mirsad-connector</b></a>: releases of the Mirsad on-premises connector for Windows and Docker, with SHA-256 checksums.</li>
         <li><a href="https://github.com/mfathy234/mt-license-manager"><b>mt-license-manager</b></a>: license and subscription records manager. Next.js, Prisma, Postgres.</li>
-        <li><a href="https://github.com/mfathy234/DCSA"><b>DCSA</b></a>: a .NET web solution from 2022.</li>
-        <li><a href="https://github.com/mfathy234/docs"><b>docs</b></a>: a documentation site.</li>
         <li><a href="https://github.com/mfathy234/Projects"><b>Projects</b></a> and <a href="https://github.com/mfathy234/IP-FCIS"><b>IP-FCIS</b></a>: university work at Ain Shams, including RSA encryption, games and image processing.</li>
       </ul>
     </td>
