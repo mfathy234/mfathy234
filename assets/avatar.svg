@@ -8,9 +8,11 @@
   <radialGradient id="glow" cx="0.7" cy="0.28" r="0.6"><stop offset="0" stop-color="#34d399" stop-opacity="0.28"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></radialGradient></defs>
   <rect width="512" height="512" fill="#0c0e12"/>
   <rect width="512" height="512" fill="url(#g)" mask="url(#m)"/>
-  <circle cx="256" cy="256" r="170" fill="#34d399"/>
-  <circle cx="256" cy="256" r="196" fill="none" stroke="#34d399" stroke-opacity=".3" stroke-width="4"/>
-  <path transform="translate(392 118) scale(2.4)" opacity="1" fill="#34d399" d="M0-10C1.4-3.6 3.6-1.4 10 0 3.6 1.4 1.4 3.6 0 10-1.4 3.6-3.6 1.4-10 0-3.6-1.4-1.4-3.6 0-10Z"/>
-  <path transform="translate(118 392) scale(1.3)" opacity="0.6" fill="#34d399" d="M0-10C1.4-3.6 3.6-1.4 10 0 3.6 1.4 1.4 3.6 0 10-1.4 3.6-3.6 1.4-10 0-3.6-1.4-1.4-3.6 0-10Z"/>
-  <text x="256" y="304" text-anchor="middle" font-family="BG" font-weight="800" font-size="148" letter-spacing="-4" fill="#06281c">MF</text>
+  <rect width="512" height="512" fill="url(#glow)"/>
+  <rect x="96" y="146" width="320" height="220" rx="34" fill="#11141a" stroke="#34d399" stroke-opacity=".45" stroke-width="3"/>
+  <circle cx="134" cy="182" r="8" fill="#34d399" opacity=".9"/><circle cx="160" cy="182" r="8" fill="#34d399" opacity=".5"/><circle cx="186" cy="182" r="8" fill="#34d399" opacity=".25"/>
+  <text x="128" y="306" font-family="JBM" font-weight="700" font-size="84" fill="#34d399">&gt;</text>
+  <text x="196" y="306" font-family="JBM" font-weight="700" font-size="84" fill="#eef1f6">mf</text>
+  <rect x="318" y="290" width="44" height="12" rx="3" fill="#34d399"/>
+  <path transform="translate(400 112) scale(2)" opacity="1" fill="#34d399" d="M0-10C1.4-3.6 3.6-1.4 10 0 3.6 1.4 1.4 3.6 0 10-1.4 3.6-3.6 1.4-10 0-3.6-1.4-1.4-3.6 0-10Z"/>
 </svg>

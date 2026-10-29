@@ -59,6 +59,6 @@ const variants = {
 </svg>`,
 };
 
-// The chosen design is 'mint'; the others stay here for reference. Export avatar.png at 1024 px from this SVG.
-writeFileSync(new URL('../assets/avatar.svg', import.meta.url), variants.mint);
+// The chosen design is 'prompt'; the others stay here for reference. Export avatar.png at 1024 px from this SVG.
+writeFileSync(new URL('../assets/avatar.svg', import.meta.url), variants.prompt);
 console.log('wrote assets/avatar.svg');
