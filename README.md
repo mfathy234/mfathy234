@@ -6,7 +6,6 @@
 <p align="center">
   <a href="https://github.com/mfathy234/mfathy234/raw/main/cv/Mohamed-Fathy-CV.pdf"><img src="https://img.shields.io/badge/Download%20CV-34d399?style=for-the-badge&logo=adobeacrobatreader&logoColor=06281c" alt="Download CV"></a>
   <a href="mailto:mohamedfathy234@gmail.com"><img src="https://img.shields.io/badge/Email-0c0e12?style=for-the-badge&logo=gmail&logoColor=34d399" alt="Email"></a>
-  <a href="tel:+201113312949"><img src="https://img.shields.io/badge/Phone-+20%20111%20331%202949-0c0e12?style=for-the-badge&labelColor=0c0e12&color=1b2029" alt="Phone +20 111 331 2949"></a>
   <br>
   <a href="https://assistant-console.pages.dev"><img src="https://img.shields.io/badge/Mirsad-AI%20data%20assistant-34d399?style=for-the-badge&labelColor=0c0e12" alt="Mirsad: AI data assistant"></a>
   <a href="https://dawsha.pages.dev"><img src="https://img.shields.io/badge/Dawsha-AI%20agents,%20one%20window-34d399?style=for-the-badge&labelColor=0c0e12" alt="Dawsha: AI agents in one window"></a>
@@ -31,7 +30,7 @@ work I build tools I want to use myself, and ship them.
   <tr>
     <td width="50%" valign="top">
       <a href="https://assistant-console.pages.dev"><img src="assets/mirsad.png" alt="Mirsad: ask your business, get a checked answer"></a>
-      <h3><a href="https://assistant-console.pages.dev">Mirsad</a></h3>
+      <h3><img src="assets/icons/mirsad.png" width="30" height="30" align="center" alt="">&nbsp; <a href="https://assistant-console.pages.dev">Mirsad</a></h3>
       An AI assistant that answers business questions in Arabic or English from any SQL database or REST API.
       Every generated query passes a guard, a permission check and tenant scoping before it runs, and an on-premises
       connector reaches private data over outbound HTTPS only.<br><br>
@@ -40,7 +39,7 @@ work I build tools I want to use myself, and ship them.
     </td>
     <td width="50%" valign="top">
       <a href="https://dawsha.pages.dev"><img src="assets/dawsha.png" alt="Dawsha: every AI coding agent in one readable window"></a>
-      <h3><a href="https://github.com/mfathy234/dawsha">Dawsha</a></h3>
+      <h3><img src="assets/icons/dawsha.png" width="30" height="30" align="center" alt="">&nbsp; <a href="https://github.com/mfathy234/dawsha">Dawsha</a></h3>
       Runs Claude Code, Codex CLI and Gemini CLI side by side in large, readable terminals, one session per task, with
       agent timelines, file review, remote control from a phone and in-app updates. Windows, macOS and Linux.<br><br>
       <sub>Electron · TypeScript · xterm.js · node-pty · Vite · Playwright</sub><br>
@@ -50,7 +49,7 @@ work I build tools I want to use myself, and ship them.
   <tr>
     <td width="50%" valign="top">
       <a href="https://nadfny.pages.dev"><img src="assets/nadfny.png" alt="Nadfny: get your disk back"></a>
-      <h3><a href="https://github.com/mfathy234/nadfny">Nadfny</a></h3>
+      <h3><img src="assets/icons/nadfny.png" width="30" height="30" align="center" alt="">&nbsp; <a href="https://github.com/mfathy234/nadfny">Nadfny</a></h3>
       A fast Windows disk cleaner for developers. Finds the space lost to git worktrees, Docker, build output and
       package caches, with guards that never delete unsaved work or source code, live progress and a self-updating
       installer.<br><br>
@@ -59,7 +58,7 @@ work I build tools I want to use myself, and ship them.
     </td>
     <td width="50%" valign="top">
       <a href="https://notes-tracker.pages.dev"><img src="assets/notes-tracker.png" alt="Notes Tracker"></a>
-      <h3><a href="https://notes-tracker.pages.dev">Notes Tracker</a></h3>
+      <h3><img src="assets/icons/notes-tracker.png" width="30" height="30" align="center" alt="">&nbsp; <a href="https://notes-tracker.pages.dev">Notes Tracker</a></h3>
       A cross-platform notes app for Windows, Android and the web with offline sync, voice notes with speech-to-text,
       text extraction from images, shared notebooks and a full Arabic right-to-left interface.<br><br>
       <sub>.NET 10 · .NET MAUI · Blazor · ASP.NET Core · PostgreSQL · SQLite</sub><br>
@@ -69,7 +68,7 @@ work I build tools I want to use myself, and ship them.
   <tr>
     <td width="50%" valign="top">
       <a href="https://mfathy234.github.io/learning-hub/"><img src="assets/learning-hub.png" alt="Learning Hub knowledge map"></a>
-      <h3><a href="https://github.com/mfathy234/learning-hub">Learning Hub</a></h3>
+      <h3><img src="assets/icons/learning-hub.png" width="30" height="30" align="center" alt="">&nbsp; <a href="https://github.com/mfathy234/learning-hub">Learning Hub</a></h3>
       A personal knowledge base of self-contained engineering lessons, browsable as an animated, searchable mind map
       of how the topics connect.<br><br>
       <sub>HTML · CSS · JavaScript · GitHub Pages</sub><br>

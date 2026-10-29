@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Learning Hub: a mind map">
+  <rect x="8" y="8" width="240" height="240" rx="58" fill="#0e0f0b"/>
+  <g stroke="#c5d64b" stroke-width="9" stroke-linecap="round" opacity=".55">
+    <path d="M128 128 70 76M128 128l62-42M128 128l-50 66M128 128l60 58"/>
+  </g>
+  <circle cx="128" cy="128" r="34" fill="#c5d64b"/>
+  <circle cx="128" cy="128" r="46" fill="none" stroke="#c5d64b" stroke-opacity=".25" stroke-width="8"/>
+  <g fill="#1d2016" stroke="#c5d64b" stroke-width="7">
+    <circle cx="66" cy="72" r="17"/><circle cx="194" cy="82" r="17"/><circle cx="74" cy="198" r="17"/><circle cx="192" cy="190" r="17"/>
+  </g>
+</svg>

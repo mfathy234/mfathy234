@@ -1,13 +1,21 @@
 // Generates assets/banner-dark.svg and assets/banner-light.svg: an animated header for the GitHub profile.
-// Pure SVG + SMIL (GitHub renders it as an <img>, so no scripts or external fonts). Run: node tools/banner.mjs
-import { writeFileSync } from 'fs';
+// Pure SVG + SMIL (GitHub renders it as an <img>, so no scripts or external fonts). Fonts are embedded as
+// subset woff2 data URIs from tools/fonts (Bricolage Grotesque, JetBrains Mono, Figtree; SIL OFL). Run: node tools/banner.mjs
+import { readFileSync, writeFileSync } from 'fs';
+
+const font = (file) => 'data:font/woff2;base64,' + readFileSync(new URL('./fonts/' + file, import.meta.url)).toString('base64');
+const FONTS = `
+      @font-face { font-family: 'BG'; font-weight: 800; src: url(${font('display.woff2')}) format('woff2'); }
+      @font-face { font-family: 'JBM'; font-weight: 500; src: url(${font('mono.woff2')}) format('woff2'); }
+      @font-face { font-family: 'JBM'; font-weight: 700; src: url(${font('monobold.woff2')}) format('woff2'); }
+      @font-face { font-family: 'FT'; font-weight: 500; src: url(${font('body.woff2')}) format('woff2'); }`;
 
 const W = 1200, H = 300;
-const phrases = ['.NET Tech Lead', 'Multi-tenant SaaS architect', 'Building Mirsad, Dawsha & Nadfny'];
+const phrases = ['.NET Tech Lead', 'Software architect', 'Multi-tenant SaaS · Microservices'];
 const SLOT = 4;                 // seconds per phrase
 const TOTAL = SLOT * phrases.length;
 const TYPE = 1.5, HOLD_END = 3.5; // typing finishes at 1.5 s, text clears at 3.5 s within each slot
-const CHAR = 14.6;              // per-character width; textLength pins it so every OS font lines up with the caret
+const CHAR = 15.6;              // per-character width; textLength pins it so every OS font lines up with the caret
 const X = 102, Y = 205;         // where the typed text starts
 
 const themes = {
@@ -44,18 +52,18 @@ function sparkle(x, y, size, delay, t) {
 }
 
 function banner(t) {
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Mohamed Fathy: .NET Tech Lead, multi-tenant SaaS architect, building Mirsad, Dawsha and Nadfny">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Mohamed Fathy: .NET Tech Lead and software architect for multi-tenant SaaS and microservices">
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="${t.grid}" stroke-width="1"/></pattern>
     <radialGradient id="glow" cx="0.82" cy="0.35" r="0.55"><stop offset="0" stop-color="rgb(${t.glow})" stop-opacity="0.22"/><stop offset="1" stop-color="rgb(${t.glow})" stop-opacity="0"/></radialGradient>
     <linearGradient id="fade" x1="0" x2="1"><stop offset="0.35" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="1"/></linearGradient>
     <mask id="gridMask"><rect width="${W}" height="${H}" fill="url(#fade)"/></mask>
-    <style>
-      .name { font: 800 64px "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; fill: ${t.name}; letter-spacing: -1.5px; }
-      .handle { font: 600 18px Consolas, Menlo, "SF Mono", monospace; fill: ${t.accent}; letter-spacing: 1px; }
-      .type { font: 500 26px Consolas, Menlo, "SF Mono", "DejaVu Sans Mono", monospace; fill: ${t.name}; }
-      .prompt { font: 700 26px Consolas, Menlo, "SF Mono", monospace; fill: ${t.prompt}; }
-      .meta { font: 500 17px "Segoe UI", -apple-system, BlinkMacSystemFont, Arial, sans-serif; fill: ${t.muted}; }
+    <style>${FONTS}
+      .name { font: 800 66px BG, "Segoe UI", sans-serif; fill: ${t.name}; letter-spacing: -0.4px; }
+      .handle { font: 700 17px JBM, Consolas, monospace; fill: ${t.accent}; letter-spacing: 2px; }
+      .type { font: 500 26px JBM, Consolas, monospace; fill: ${t.name}; }
+      .prompt { font: 700 26px JBM, Consolas, monospace; fill: ${t.prompt}; }
+      .meta { font: 500 17px FT, "Segoe UI", sans-serif; fill: ${t.muted}; }
     </style>
   </defs>
   <rect width="${W}" height="${H}" rx="18" fill="${t.bg}"/>
@@ -75,7 +83,7 @@ function banner(t) {
   <text x="70" y="140" class="name">Mohamed Fathy</text>
   <text x="72" y="${Y}" class="prompt">&gt;</text>
   ${phrases.map((p, i) => phraseLayer(p, i, t)).join('')}
-  <text x="72" y="258" class="meta">Cairo, Egypt  ·  .NET 10  ·  Blazor  ·  Angular  ·  Keycloak  ·  Azure  ·  Open to remote</text>
+  <text x="72" y="258" class="meta">Cairo, Egypt  ·  9+ years in .NET  ·  Clean Architecture  ·  DDD  ·  CQRS  ·  Open to remote</text>
 </svg>
 `;
 }
