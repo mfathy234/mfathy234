@@ -88,6 +88,6 @@ function banner(t) {
 `;
 }
 
-writeFileSync(new URL('../assets/banner-dark.svg', import.meta.url), banner(themes.dark));
-writeFileSync(new URL('../assets/banner-light.svg', import.meta.url), banner(themes.light));
-console.log('wrote assets/banner-dark.svg and assets/banner-light.svg');
+writeFileSync(new URL('../assets/banner-dark-v2.svg', import.meta.url), banner(themes.dark));
+writeFileSync(new URL('../assets/banner-light-v2.svg', import.meta.url), banner(themes.light));
+console.log('wrote assets/banner-dark-v2.svg and assets/banner-light-v2.svg');
