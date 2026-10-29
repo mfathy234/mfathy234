@@ -1,14 +1,23 @@
-<h1>Mohamed Fathy</h1>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img src="assets/banner-dark.svg" width="100%" alt="Mohamed Fathy: .NET Tech Lead, multi-tenant SaaS architect, building Mirsad, Dawsha and Nadfny">
+</picture>
 
-<p>
-  <b>.NET Tech Lead</b> · Multi-tenant SaaS architecture · Microservices · Blazor · Angular<br>
-  Cairo, Egypt · Open to remote and to relocation with visa sponsorship
+<p align="center">
+  <a href="https://github.com/mfathy234/mfathy234/raw/main/cv/Mohamed-Fathy-CV.pdf"><img src="https://img.shields.io/badge/Download%20CV-34d399?style=for-the-badge&logo=adobeacrobatreader&logoColor=06281c" alt="Download CV"></a>
+  <a href="mailto:mohamedfathy234@gmail.com"><img src="https://img.shields.io/badge/Email-0c0e12?style=for-the-badge&logo=gmail&logoColor=34d399" alt="Email"></a>
+  <a href="tel:+201113312949"><img src="https://img.shields.io/badge/Phone-+20%20111%20331%202949-0c0e12?style=for-the-badge&labelColor=0c0e12&color=1b2029" alt="Phone +20 111 331 2949"></a>
+  <br>
+  <a href="https://assistant-console.pages.dev"><img src="https://img.shields.io/badge/Mirsad-AI%20data%20assistant-34d399?style=for-the-badge&labelColor=0c0e12" alt="Mirsad: AI data assistant"></a>
+  <a href="https://dawsha.pages.dev"><img src="https://img.shields.io/badge/Dawsha-AI%20agents,%20one%20window-34d399?style=for-the-badge&labelColor=0c0e12" alt="Dawsha: AI agents in one window"></a>
+  <a href="https://nadfny.pages.dev"><img src="https://img.shields.io/badge/Nadfny-disk%20cleaner-34d399?style=for-the-badge&labelColor=0c0e12" alt="Nadfny: disk cleaner"></a>
 </p>
 
-<p>
-  <a href="cv/Mohamed-Fathy-CV.pdf"><b>Download my CV (PDF)</b></a> ·
-  <a href="mailto:mohamedfathy234@gmail.com">mohamedfathy234@gmail.com</a> ·
-  <a href="tel:+201113312949">+20 111 331 2949</a>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=cs,dotnet,azure,docker,angular,ts,react,postgres,redis,rabbitmq,githubactions,cloudflare,electron,vite,nextjs&theme=light&perline=15">
+    <img src="https://skillicons.dev/icons?i=cs,dotnet,azure,docker,angular,ts,react,postgres,redis,rabbitmq,githubactions,cloudflare,electron,vite,nextjs&theme=dark&perline=15" alt="C#, .NET, Azure, Docker, Angular, TypeScript, React, PostgreSQL, Redis, RabbitMQ, GitHub Actions, Cloudflare, Electron, Vite, Next.js">
+  </picture>
 </p>
 
 I design and lead enterprise platforms on the Microsoft stack. For the last 3+ years I have led the architecture of a
@@ -106,3 +115,8 @@ The [CV](cv/Mohamed-Fathy-CV.pdf) has the full project list.
 
 **Education:** B.Sc. Computer and Information Science, Ain Shams University (2016).<br>
 **Languages:** Arabic (native), English (fluent).
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mfathy234/mfathy234/output/snake-light.svg">
+  <img src="https://raw.githubusercontent.com/mfathy234/mfathy234/output/snake-dark.svg" width="100%" alt="A snake eating my GitHub contribution graph">
+</picture>
