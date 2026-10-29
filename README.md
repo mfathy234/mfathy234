@@ -4,12 +4,14 @@
 </picture>
 
 <p align="center">
-  <a href="https://github.com/mfathy234/mfathy234/raw/main/cv/Mohamed-Fathy-CV.pdf"><img src="https://img.shields.io/badge/Download%20CV-34d399?style=for-the-badge&logo=adobeacrobatreader&logoColor=06281c" alt="Download CV"></a>
-  <a href="mailto:mohamedfathy234@gmail.com"><img src="https://img.shields.io/badge/Email-0c0e12?style=for-the-badge&logo=gmail&logoColor=34d399" alt="Email"></a>
-  <br>
-  <a href="https://assistant-console.pages.dev"><img src="https://img.shields.io/badge/Mirsad-AI%20data%20assistant-34d399?style=for-the-badge&labelColor=0c0e12" alt="Mirsad: AI data assistant"></a>
-  <a href="https://dawsha.pages.dev"><img src="https://img.shields.io/badge/Dawsha-AI%20agents,%20one%20window-34d399?style=for-the-badge&labelColor=0c0e12" alt="Dawsha: AI agents in one window"></a>
-  <a href="https://nadfny.pages.dev"><img src="https://img.shields.io/badge/Nadfny-disk%20cleaner-34d399?style=for-the-badge&labelColor=0c0e12" alt="Nadfny: disk cleaner"></a>
+  <a href="https://github.com/mfathy234/mfathy234/raw/main/cv/Mohamed-Fathy-CV.pdf"><picture><source media="(prefers-color-scheme: light)" srcset="assets/buttons/cv-light.svg"><img src="assets/buttons/cv-dark.svg" alt="Download CV"></picture></a>&nbsp;
+  <a href="mailto:mohamedfathy234@gmail.com"><picture><source media="(prefers-color-scheme: light)" srcset="assets/buttons/email-light.svg"><img src="assets/buttons/email-dark.svg" alt="Email me: mohamedfathy234@gmail.com"></picture></a>
+</p>
+
+<p align="center">
+  <a href="https://assistant-console.pages.dev"><picture><source media="(prefers-color-scheme: light)" srcset="assets/buttons/mirsad-light.svg"><img src="assets/buttons/mirsad-dark.svg" alt="Mirsad: AI data assistant"></picture></a>&nbsp;
+  <a href="https://dawsha.pages.dev"><picture><source media="(prefers-color-scheme: light)" srcset="assets/buttons/dawsha-light.svg"><img src="assets/buttons/dawsha-dark.svg" alt="Dawsha: AI agents, one window"></picture></a>&nbsp;
+  <a href="https://nadfny.pages.dev"><picture><source media="(prefers-color-scheme: light)" srcset="assets/buttons/nadfny-light.svg"><img src="assets/buttons/nadfny-dark.svg" alt="Nadfny: disk cleaner for developers"></picture></a>
 </p>
 
 <p align="center">
