@@ -11,7 +11,8 @@
 <p align="center">
   <a href="https://assistant-console.pages.dev"><picture><source media="(prefers-color-scheme: light)" srcset="assets/buttons/mirsad-light.svg"><img src="assets/buttons/mirsad-dark.svg" alt="Mirsad: AI data assistant"></picture></a>&nbsp;
   <a href="https://dawsha.pages.dev"><picture><source media="(prefers-color-scheme: light)" srcset="assets/buttons/dawsha-light.svg"><img src="assets/buttons/dawsha-dark.svg" alt="Dawsha: AI agents, one window"></picture></a>&nbsp;
-  <a href="https://nadfny.pages.dev"><picture><source media="(prefers-color-scheme: light)" srcset="assets/buttons/nadfny-light.svg"><img src="assets/buttons/nadfny-dark.svg" alt="Nadfny: disk cleaner for developers"></picture></a>
+  <a href="https://nadfny.pages.dev"><picture><source media="(prefers-color-scheme: light)" srcset="assets/buttons/nadfny-light.svg"><img src="assets/buttons/nadfny-dark.svg" alt="Nadfny: disk cleaner for developers"></picture></a>&nbsp;
+  <a href="https://github.com/mfathy234/device-shell-releases"><picture><source media="(prefers-color-scheme: light)" srcset="assets/buttons/deviceshell-light.svg"><img src="assets/buttons/deviceshell-dark.svg" alt="DeviceShell: a lighter Windows shell"></picture></a>
 </p>
 
 <p align="center">
@@ -77,12 +78,73 @@ work I build tools I want to use myself, and ship them.
       <sub><a href="https://mfathy234.github.io/learning-hub/">Live map</a> · <a href="https://github.com/mfathy234/learning-hub">Source</a></sub>
     </td>
     <td width="50%" valign="top">
+      <a href="https://github.com/mfathy234/device-shell-releases"><img src="assets/deviceshell.png" alt="DeviceShell: taskbar, Start menu and hover notch"></a>
+      <h3><img src="assets/icons/deviceshell.png" width="30" height="30" align="center" alt="">&nbsp; <a href="https://github.com/mfathy234/device-shell-releases">DeviceShell</a></h3>
+      A lightweight replacement for the Windows 10/11 taskbar, Start menu and system tray, plus a hover notch with tools
+      and battery rings for the mouse, keyboard, headset, controller and laptop. Idles under 10 MB of RAM.<br><br>
+      <sub>Rust · Direct2D · DirectWrite · Win32</sub><br>
+      <sub><a href="https://github.com/mfathy234/device-shell-releases">Releases</a> · <a href="https://github.com/mfathy234/device-shell-releases/releases/latest">Download</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/mfathy234/shahn-releases"><img src="assets/shahn.png" alt="Shahn: battery rings and network speed on the taskbar"></a>
+      <h3><img src="assets/icons/shahn.png" width="30" height="30" align="center" alt="">&nbsp; <a href="https://github.com/mfathy234/shahn-releases">Shahn</a></h3>
+      Battery rings for the laptop and every connected device (mouse, keyboard, headset, controller) with a live
+      network up and down speed readout that can be turned off. Sits on the stock Windows taskbar.<br><br>
+      <sub>Rust · Direct2D · Win32</sub><br>
+      <sub><a href="https://github.com/mfathy234/shahn-releases">Releases</a> · <a href="https://github.com/mfathy234/shahn-releases/releases/latest">Download</a></sub>
+    </td>
+    <td width="50%" valign="top">
       <h3>More on GitHub</h3>
       <ul>
         <li><a href="https://github.com/mfathy234/mirsad-connector"><b>mirsad-connector</b></a>: releases of the Mirsad on-premises connector for Windows and Docker, with SHA-256 checksums.</li>
         <li><a href="https://github.com/mfathy234/mt-license-manager"><b>mt-license-manager</b></a>: license and subscription records manager. Next.js, Prisma, Postgres.</li>
         <li><a href="https://github.com/mfathy234/Projects"><b>Projects</b></a> and <a href="https://github.com/mfathy234/IP-FCIS"><b>IP-FCIS</b></a>: university work at Ain Shams, including RSA encryption, games and image processing.</li>
       </ul>
+    </td>
+  </tr>
+</table>
+
+## Games
+
+Arabic-themed games, free to play. Each has a public release repository; the source is private.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://mfathy234.github.io/fawazeer-el-arqam-releases/en/"><img src="assets/fawazeer.png" alt="Fawazeer El Arqam: a number crossword in an Egyptian puzzle-newspaper cafe"></a>
+      <h3><img src="assets/icons/fawazeer.png" width="30" height="30" align="center" alt="">&nbsp; <a href="https://mfathy234.github.io/fawazeer-el-arqam-releases/en/">Fawazeer El Arqam · فوازير الأرقام</a></h3>
+      A number crossword in an old Egyptian puzzle-newspaper cafe: drag number tiles into crossing equations, and every
+      puzzle has exactly one solution. Four Arabic word games sit alongside it. Plays offline in the browser or as an Android app.<br><br>
+      <sub>JavaScript · HTML5 Canvas · PWA · Android</sub><br>
+      <sub><a href="https://mfathy234.github.io/fawazeer-el-arqam-releases/en/">Website</a> · <a href="https://mfathy234.github.io/fawazeer-el-arqam-releases/play/">Play</a> · <a href="https://github.com/mfathy234/fawazeer-el-arqam-releases/releases/latest/download/FawazeerElArqam.apk">Android APK</a></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://mfathy234.github.io/hesbet-barma-releases/en/"><img src="assets/hesbet-barma.png" alt="Hesbet Barma: cartoon math blocks on notebook paper"></a>
+      <h3><img src="assets/icons/hesbet-barma.png" width="30" height="30" align="center" alt="">&nbsp; <a href="https://mfathy234.github.io/hesbet-barma-releases/en/">Hesbet Barma · حسبة برما</a></h3>
+      A cartoon math-blocks game on notebook paper for KG to grade 6. Arrange the blocks and solve the sums with Professor
+      Owl and Toto the hedgehog, with endless, sprint and calm modes, a daily challenge and 16 trophies.<br><br>
+      <sub>JavaScript · HTML5 Canvas · PWA · Android</sub><br>
+      <sub><a href="https://mfathy234.github.io/hesbet-barma-releases/en/">Website</a> · <a href="https://mfathy234.github.io/hesbet-barma-releases/play/">Play</a> · <a href="https://github.com/mfathy234/hesbet-barma-releases/releases/latest/download/HesbetBarma.apk">Android APK</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://mfathy234.github.io/natta-el-sotouh-releases/en/"><img src="assets/natta-el-sotouh.png" alt="Natta El Sotouh: a cartoon endless jumper over Cairo rooftops"></a>
+      <h3><img src="assets/icons/natta-el-sotouh.png" width="30" height="30" align="center" alt="">&nbsp; <a href="https://mfathy234.github.io/natta-el-sotouh-releases/en/">Natta El Sotouh · نطّة السطوح</a></h3>
+      A rubber-hose endless jumper: bounce up a Cairo apartment building as Mar3y the cat, past balconies, AC units,
+      pigeons and flying slippers, up to the rooftops and the sky.<br><br>
+      <sub>JavaScript · HTML5 Canvas · PWA · Android</sub><br>
+      <sub><a href="https://mfathy234.github.io/natta-el-sotouh-releases/en/">Website</a> · <a href="https://mfathy234.github.io/natta-el-sotouh-releases/play/">Play</a> · <a href="https://github.com/mfathy234/natta-el-sotouh-releases/releases/latest">Download</a></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://tayara-el-hara.pages.dev/"><img src="assets/tayara-el-hara.png" alt="Tayara El Hara: a 1930s cartoon shoot em up over Egypt"></a>
+      <h3><img src="assets/icons/tayara-el-hara.png" width="30" height="30" align="center" alt="">&nbsp; <a href="https://tayara-el-hara.pages.dev/">Tayara El Hara · طيارة الحارة</a></h3>
+      A 1930s rubber-hose shoot 'em up over Egypt. Fly Bisbis the cat's tuk-tuk plane through the chapters and bosses,
+      with an in-game update check. Android only.<br><br>
+      <sub>Unity · C# · Android</sub><br>
+      <sub><a href="https://tayara-el-hara.pages.dev/">Website</a> · <a href="https://github.com/mfathy234/tayara-el-hara-releases/releases/latest/download/TayaraElHara.apk">Android APK</a> · <a href="https://github.com/mfathy234/tayara-el-hara-releases">Releases</a></sub>
     </td>
   </tr>
 </table>

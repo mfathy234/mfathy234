@@ -56,6 +56,7 @@ const buttons = {
   mirsad: (t) => project({ name: 'Mirsad', tagline: 'AI data assistant', img: icon('mirsad') }, t),
   dawsha: (t) => project({ name: 'Dawsha', tagline: 'AI agents, one window', img: icon('dawsha') }, t),
   nadfny: (t) => project({ name: 'Nadfny', tagline: 'Disk cleaner for devs', img: icon('nadfny') }, t),
+  deviceshell: (t) => project({ name: 'DeviceShell', tagline: 'Lighter Windows shell', img: icon('deviceshell') }, t),
 };
 
 const outDir = new URL('../assets/buttons/', import.meta.url);
