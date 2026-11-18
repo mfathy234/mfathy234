@@ -96,6 +96,16 @@ work I build tools I want to use myself, and ship them.
       <sub><a href="https://github.com/mfathy234/shahn-releases">Releases</a> · <a href="https://github.com/mfathy234/shahn-releases/releases/latest">Download</a></sub>
     </td>
     <td width="50%" valign="top">
+      <a href="https://github.com/mfathy234/qefl-releases"><img src="assets/qefl.png" alt="Qefl: lock any app behind Windows Hello"></a>
+      <h3><img src="assets/icons/qefl.png" width="30" height="30" align="center" alt="">&nbsp; <a href="https://github.com/mfathy234/qefl-releases">Qefl · قفل</a></h3>
+      Locks any Windows app behind Windows Hello or a password: a locked app's windows hide until you are
+      confirmed, with relock timers, lock-on-sleep, protected settings and a watchdog that restarts it if it's ended.<br><br>
+      <sub>Rust · Direct2D · Win32 · WinRT</sub><br>
+      <sub><a href="https://github.com/mfathy234/qefl-releases">Releases</a> · <a href="https://github.com/mfathy234/qefl-releases/releases/latest">Download</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>More on GitHub</h3>
       <ul>
         <li><a href="https://github.com/mfathy234/mirsad-connector"><b>mirsad-connector</b></a>: releases of the Mirsad on-premises connector for Windows and Docker, with SHA-256 checksums.</li>
